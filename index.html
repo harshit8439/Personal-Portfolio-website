@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/title.png" type="image.png" />
+    <title>Harshit Kushwah</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <!-- Google font(poppins) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <!-- linking css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- animate.js and wow.js  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Initialize Wow.js
+      var wow = new WOW();
+      wow.init();
+
+      // Destroy and reinitialize Wow.js on scroll to top
+      window.addEventListener("scroll", function() {
+        if (window.scrollY === 0) {
+          wow.stop(); // Stop current animations
+          wow = new WOW(); // Create a new instance
+          wow.init(); // Initialize the new instance
+        }
+      });
+    });
+  </script>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html" class="nav__logo">
+          <img src="images/logo2.png" alt="Navbar Logo" />
+        </a>
+        <ul class="nav__menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav_buttons">
+          <button class="nav__toggle-theme-btn">
+            <i class="uil uil-moon theme-icon"></i
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- END OF NAV -->
+
+      <header>
+        <div class="container header__container">
+          <article class="header__image wow zoomIn">
+            <div><img src="./images/myphoto.png"
+                alt="Header Image" /></div>
+          </article>
+          <article class="header__content wow fadeInUp" data-wow-delay="0.1s">
+            <h4>Hi,I'm <span style="color: #1CAC78">Harshit Kushwah</span></h4>
+            <h2>A Web Artist🎨🖌️</h2>
+            <p>
+              who's passionate about turning digital dreams into reality through
+              the magic of code and boundless enthusiasm.
+            </p>
+            <!-- <p>Are you looking for a developer to put your business online? You've come to the right place! I've helped hundreds of business owners bring their ideas to life.
+                    Hire me today! </p> -->
+
+            <div class="header__cta">
+              <a href="#contact" class="btn primary">Hire me</a>
+              <a href="#projects" class="btn">Portfolio</a>
+            </div>
+          </article>
+          <div class="header__socials">
+            <li>
+              <a href="https://github.com/AnshikaVerma23" target="_blank"><i
+                  class="uil uil-github-alt"></i></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/anshika-verma1/"
+                target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+            </li>
+            <li>
+              <a href="mailto:anshikaggp@gmail.com" target="_blank"><i
+                  class="uil uil-envelope"></i></a>
+            </li>
+            <!-- <li><a href="https://github.com/harshit8439" target="_blank"><i class="uil uil-instagram-alt"></i></a></li> -->
+          </div>
+        </div>
+      </header>
+
+      <!-- END OF HEADER -->
+
+      <section class="about" id="about">
+        <div class="container about__container">
+          <div class="about__image">
+            <img src="./images/about.jpg" alt="About Image">
+          </div>
+          <div class="about__details">
+            <h1>About Me</h1>
+            <!-- <div class="about__cards">
+              <article class="about__card">
+                <i class="uil uil-award-alt"></i>
+                <h4>Experience</h4>
+                <small>1+ years</small>
+              </article>
+
+              <article class="about__card">
+                <i class="uil uil-swatchbook"></i>
+                <h4>Projects</h4>
+                <small>10+ completed</small>
+              </article>
+              <article class="about__card">
+
+                <i class="uil uil-analysis"></i>
+                <h4>Skills</h4>
+                <small>10+ skills</small>
+              </article>
+
+            </div> -->
+            <p style="margin-top: 2.5rem;text-align: justify;">
+              <!-- Lord Krishna is a major deity in Hinduism. He is considered the eighth avatar of Lord Vishnu, who is regarded as the preserver and protector of the universe in Hindu belief. Krishna is a central figure in the Indian epic, the Mahabharata, and is revered as a supreme god in his own right. -->
+              Hi, I'm Harshit Thakur, a motivated engineering student with a
+              passion for technology. I specialize in a range of programming
+              languages and web-related technologies, including Java, HTML, CSS,
+              and JavaScript.
+            </p>
+            <p style="text-align: justify;">
+              <!-- According to Hindu tradition, Krishna was born in Mathura to Devaki and Vasudeva but was brought up in Gokul by his foster parents, Nanda and Yashoda. His life is filled with various heroic deeds, playful activities, and profound teachings. He is often depicted as a mischievous boy, a youthful lover playing the flute, or a compassionate mentor and guide to his devotees. -->
+              I'm dedicated to helping individuals and businesses establish a
+              strong online presence. Whether it's creating dynamic web
+              applications or implementing cutting-edge solutions, I'm here to
+              bring your digital ideas to life. Let's collaborate and make your
+              online ventures a reality!
+            </p>
+            <a href="./images/Harshit_Kushwah_7417831955.pdf"
+              class="btn primary"
+              download target="_blank"><i
+                class="uil uil-download-alt"></i>Download CV</a>
+          </div>
+        </div>
+      </section>
+      <!-- END OF ABOUT -->
+
+      <!-- skills starts -->
+      <section class="skill_sec" id="skill" style="padding: 3rem">
+        <div class="skill_head">
+          <h1 style="text-align: center">Skills</h1>
+        </div>
+        <br>
+        <div class="skill_con">
+          <div class="skill wow heartBeat" data-wow-delay="0.3s">
+            <div class="img1">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+            </div>
+            <div class="head">
+              <h4>CSS</h4>
+            </div>
+          </div>
+
+          <div class="skill wow heartBeat" data-wow-delay="0.3s">
+            <div class="img1">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+            </div>
+            <div class="head">
+              <h4>HTML</h4>
+            </div>
+          </div>
+
+          <div class="skill wow heartBeat" data-wow-delay="0.3s">
+            <div class="img1">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+            </div>
+            <div class="head">
+              <h4>Java Script</h4>
+            </div>
+          </div>
+
+          <div class="skill wow heartBeat" data-wow-delay="0.3s">
+            <div class="img1">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" />
+            </div>
+            <div class="head">
+              <h4>MySQL</h4>
+            </div>
+          </div>
+
+          <div class="skill wow heartBeat" data-wow-delay="0.3s">
+            <div class="img1">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" />
+            </div>
+            <div class="head">
+              <h4>Bootstrap</h4>
+            </div>
+          </div>
+          <div class="skill wow heartBeat" data-wow-delay="0.3s">
+            <div class="img1">
+              <img
+                src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" />
+            </div>
+            <div class="head">
+              <h4>Tailwind CSS</h4>
+            </div>
+          </div>
+          <div class="skill wow heartBeat" data-wow-delay="0.3s">
+            <div class="img1">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" />
+            </div>
+            <div class="head">
+              <h4>JAVA</h4>
+            </div>
+          </div>
+
+          <div class="skill wow heartBeat" data-wow-delay="0.3s">
+            <div class="img1">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+            </div>
+            <div class="head">
+              <h4>React</h4>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- skills ends -->
+
+      <!-- Projects -->
+      <section class="projects" id="projects">
+        <h1 class="wow fadeInDown" data-wow-delay="0.2s">Recent Projects</h1>
+        <p>
+          Have a look at a selection of projects I've developed, each telling a
+          unique story of code and creativity.
+        </p>
+
+        <div class="container projects__container">
+          <article class="project mix fullstack wow bounceIn"
+            data-wow-delay="0.5s" data-order="1">
+            <div class="project__image">
+              <img src="./images/p1.png" alt="Project Image One" />
+            </div>
+            <h3>IMAGE WOOD</h3>
+            <p>
+              Developed a cutting-edge image search web application, offering
+              users the ability to effortlessly search for and download
+              premium-quality images.
+            </p>
+            <h3>TECHNOLOGIES USED</h3>
+            <p>HTML, CSS, and JavaScript</p>
+            <div class="project__cta">
+              <!-- <a href="#" class="btn sm primary" target="_blank">Demo</a> -->
+              <a
+                href="https://github.com"
+                style="margin: 1rem 7rem"
+                class="btn sm primary"
+                target="_blank">Github</a>
+            </div>
+          </article>
+          <article class="project mix frontend wow bounceIn"
+            data-wow-delay="0.5s"
+            data-order="2">
+            <div class="project__image">
+              <img src="./images/p2.png" alt="Project Image One" />
+            </div>
+            <h3>To-Do List</h3>
+            <p>
+              Engineered a versatile and user-friendly task management
+              application, strategically designed to empower users in
+              efficiently
+              creating, prioritizing, and tracking tasks.
+            </p>
+            <h3>TECHNOLOGIES USED</h3>
+            <p>HTML, CSS, and JavaScript</p>
+            <div class="project__cta">
+              <!-- <a href="#" class="btn sm primary" target="_blank">Demo</a> -->
+              <a
+                href="./images/project3.jpg"
+                style="margin: 1rem 7rem"
+                class="btn sm primary"
+                target="_blank">Github</a>
+            </div>
+          </article>
+          <article class="project mix fullstack wow bounceIn"
+            data-wow-delay="0.5s" data-order="3">
+            <div class="project__image">
+              <img src="./images/proj3.PNG" alt="Project Image One" />
+            </div>
+            <h3>Netflix Home Page Clone</h3>
+            <p>
+              I cloned the Netflix homepage, showcasing my web development
+              prowess.
+            </p>
+            <br><br>
+            <h3>TECHNOLOGIES USED</h3>
+            <p>HTML, CSS, and JavaScript</p>
+            <div class="project__cta">
+              <!-- <a href="#" class="btn sm primary" target="_blank">Demo</a> -->
+              <a
+                href="https://github.com"
+                style="margin: 1rem 7rem"
+                class="btn sm primary"
+                target="_blank">Github</a>
+            </div>
+          </article>
+          <article class="project mix frontend" data-order="4">
+            <div class="project__image">
+              <img src="./images/project5.jpg" alt="Project Image One">
+            </div>
+            <h3>Project One Title(Fullstack)</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+              aliquid voluptate illum eligendi veniam eaque reprehenderit
+              maiores.
+              Sed in culpa saepe maiores dolorem, natus earum, incidunt
+              temporibus, obcaecati cupiditate labore.</p>
+            <div class="project__cta">
+              <a href="#" class="btn sm primary" target="_blank">Demo</a>
+              <a href="https://github.com" style="margin: 1rem 7rem;"
+                class="btn sm primary" target="_blank">Github</a>
+            </div>
+          </article>
+          <article class="project mix frontend" data-order="5">
+            <div class="project__image">
+              <img src="./images/p4.png" alt="Project Image One">
+            </div>
+            <h3>ASHTAKAM RASAMRIT</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+              aliquid voluptate illum eligendi veniam eaque reprehenderit
+              maiores.
+              Sed in culpa saepe maiores dolorem, natus earum, incidunt
+              temporibus, obcaecati cupiditate labore.</p>
+            <div class="project__cta">
+              <a href="#" class="btn sm primary" target="_blank">Demo</a>
+              <a href="https://github.com" style="margin: 1rem 7rem;"
+                class="btn sm primary" target="_blank">Github</a>
+            </div>
+          </article>
+          <article class="project mix backend" data-order="6">
+            <div class="project__image">
+              <img src="./images/p3.png" alt="Project Image One">
+            </div>
+            <h3>CALCULATOR</h3>
+            <p>Created a calculator for mathematical calculations using
+              HTML5,CSS3 and Javascript</p>
+            <h3>TECHNOLOGIES USED</h3>
+            <p>HTML, CSS, and JavaScript</p>
+            <!-- <div class="project__cta">
+              <a href="#" class="btn sm primary" target="_blank">Demo</a>
+              <a href="https://github.com" style="margin: 1rem 7rem;"
+                class="btn sm primary" target="_blank">Github</a>
+            </div> -->
+            <div class="project__cta">
+              <!-- <a href="#" class="btn sm primary" target="_blank">Demo</a> -->
+              <a
+                href="https://github.com"
+                style="margin: 1rem 7rem"
+                class="btn sm primary"
+                target="_blank">Github</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Projects end -->
+
+      <!-- contact start -->
+      <section class="contact" id="contact" style="padding:2rem">
+        <div class="head" style="margin-bottom: 2rem;margin-left: 500px;">
+          <h2>Connect with me...</h2>
+        </div>
+        <div class="container contact__container wow bounceIn"
+          data-wow-delay="0.8s">
+          <ul class="contact__list">
+            <li>
+              <a
+                href="mailto:ht5627809@gmail.com.com"
+                class="contact__list-item"
+                target="_blank"
+                style="border-radius: 50%;padding: 0.4rem 0.5rem;">
+                <i class="uil uil-envelope"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://wa.me/+917466838336"
+                class="contact__list-item"
+                target="_blank"
+                style="border-radius: 50%;padding: 0.4rem 0.5rem;">
+                <i class="uil uil-whatsapp"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="tel:+917466838336"
+                class="contact__list-item"
+                target="_blank"
+                style="border-radius: 50%;padding: 0.4rem 0.5rem;">
+                <i class="uil uil-phone"></i>
+              </a>
+            </li>
+          </ul>
+
+          <form
+            action="https://formsubmit.co/anshikaggp@gmail.com"
+            method="POST"
+            class="contact__form">
+            <input type="text" name="Name" placeholder="Full Name" />
+            <input type="email" name="Email" placeholder="Email Address" />
+            <textarea rows="7" name="Message" placeholder="Message"></textarea>
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+      </section>
+      <!-- contact end -->
+
+      <!-- Footer
+    <footer>
+      <div class="container footer__container">
+        <ul class="footer__menu">
+          <li><a href="#"></a>Home</li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="footer__socials">
+          <li>
+            <a href="https://github.com/AnshikaVerma23" target="_blank"><i
+                class="uil uil-github-alt"></i></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/anshika-verma1/"
+              target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+          </li>
+          <li>
+            <a href="mailto:anshikaggp@gmail.com" target="_blank"><i
+                class="uil uil-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        <small>2023 GOLOK PVT. LTD. &copy;All Rights Reserved.</small>
+      </div>
+    </footer> -->
+
+      <!-- footer -->
+      <script src="index.js"></script>
+      <script src="data.js"></script>
+      <script src="./mix/dist/mixitup.min.js"></script>
+      <script scr></script>
+    </body>
+  </html>
